@@ -16,7 +16,7 @@ struct AppRemoteConfig: Decodable {
     let myUrl: URL
     let myString: String
     let myBool: Bool?
-    let myInt: Int // Float or Double as weel
+    let myInt: Int // Float or Double as well
 
     enum CodingKeys: String, CodingKey {
         case myUrl = "my_url"
